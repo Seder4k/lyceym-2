@@ -1,0 +1,119 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #faf3f2;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.logo {
+  width: 160px;
+}
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 15px 10px;
+}
+
+.cta {
+  margin: 25px 0;
+  transition: 3s linear;
+}
+.cta p{
+    font-size: 24px;
+    background-color:;
+    transition: 3s linear;
+}
+.cta button {
+  padding: 10px 20px;
+  background-color: #d67f7f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.directions .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 350px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.teachers .teacher-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.teacher img {
+    margin:10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about {
+  padding: 20px;
+}
+
+.about img {
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.contact {
+  background-color: #f0eaea;
+  padding: 20px;
+}
+
+footer {
+  background-color: #999;
+  color: white;
+  padding: 15px;
+}
+footer p{
+    font-size:28px;
+}
+footer .social img {
+  width: 44px;
+  margin: 0 5px;
+}
+.social .facebook{
+    width: 90px;
+    height:50px;
+}
